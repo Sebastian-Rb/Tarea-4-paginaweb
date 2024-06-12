@@ -1,0 +1,68 @@
+<!-- Una pagina web que contenga ejercicios junto a un formulario donde se ingresara un numero de ejercicio y lo ejecutara, los ejercicios son javascript. y debera conectarlo a su html
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Tiny5&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+<body>
+    <header>
+        <div class="titulos">
+            <img src="./img/OIP.jpg" alt="Logo" class="logo">
+            <h1>Ejercicios JavaScript</h1>
+        </div>
+        <div class="usuario">
+            Usuario: Sebastián
+        </div>
+    </header>
+    <main>
+        <div id="indice">
+            <article class="sombras">
+                <h2 class="titulos">Índice de ejercicios</h2>
+                <article class="sombras-ejercicios">
+                    <ol>
+                        <li>Celsius a Fahrenheit</li>
+                        <li>El doble y el triple del número.</li>
+                        <li>Producto, suma, media aritmética de un número.</li>
+                        <li>Libras a Kilogramos y gramos.</li>
+                        <li>Algoritmo de expresión matemática.</li>
+                        <li>Sueldo neto de un trabajador más su seguro social.</li>
+                        <li>Dos números, mayor, menor, par o impar.</li>
+                        <li>Carácter A-Z o ;.,:</li>
+                        <li>Descuento de colas</li>
+                        <li>Almacén AlgoritmoX</li>
+                        <li>Días de la semana en números</li>
+                        <li>Meses del año en números</li>
+                        <li>Nombres en un arreglo</li>
+                        <li>Caracteres de una dirección</li>
+                        <li>Valores par positivo e impar negativo</li>
+                        <li>Primer y último carácter de 3 nombres</li>
+                        <li>Carácter dígito de una cadena</li>
+                        <li>Carácter letra de una cadena</li>
+                        <li>Carácter vocal de una cadena</li>
+                        <li>Carácter de puntuación de una cadena</li>
+                        <li>Caracteres mayores, menores o iguales</li>
+                        <li>Nombres mayores, menores o iguales</li>
+                        <li>Cuántos elementos tiene una cadena</li>
+                        <li>Cuántos elementos tiene un arreglo</li>
+                    </ol>
+                </article>
+            </article>
+        </div>
+        <div id="formulario">
+            <h3 class="subtitulos">Elija un ejercicio a ejecutar:</h3>
+            <form id="numeroejercicio">
+                <label for="ejercicio">Número de ejercicio:</label>
+                <input type="number" name="ejercicio" id="ejercicio" min="1" max="24" required>
+                <input type="submit" value="Ejecutar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
