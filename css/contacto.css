@@ -13,12 +13,6 @@ header {
     padding: 10px 20px;
 }
 
-a { /*** Para eliminar hipervinculo ***/
-    text-decoration: none; 
-    background: none; 
-    color: inherit; 
-}
-
 .titulos {
     display: flex;
     align-items: center;
@@ -89,6 +83,8 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+
 /* Fuentes de letra */
 .lxgw-wenkai-tc-regular {
     font-family: "LXGW WenKai TC", cursive;
